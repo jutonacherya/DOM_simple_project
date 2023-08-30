@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 142, 242);
+}
+#card{
+    border-radius: 10px;
+    margin-top: 100px;
+    height: 380px;
+    width: 280px;
+    background-color: azure;
+    padding: 30px;
+    
+}
+#card img{
+    border-radius: 10px;
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#card h2{
+    margin-left: 100px;
+}
+#card h3{
+   color: red;
+    margin-left: 30%;
+}
+#card button
+{
+    background-color: rgb(132, 202, 202);
+    padding: 12px 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+   
+}
+#card #btn-container{
+    margin-left: 100px;
+}

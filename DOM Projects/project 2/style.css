@@ -1,0 +1,42 @@
+#container{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+
+}
+#container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#container i{
+    font-size: 50px;
+    color: rgb(248, 250, 252);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0.6;
+    transition: all ease 0.4s;
+
+  
+}
+#container2 i{
+    font-size: 50px;
+    margin-left: 530px;
+    color: rgb(152, 154, 156);
+    
+}
+#container3 i{
+    font-size: 50px;
+    margin-left: 530px;
+    
+    
+}
